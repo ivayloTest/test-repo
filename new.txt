@@ -1,11 +1,1 @@
-
-Change from test2
-I am in test 1
-Git stashed
-Some changes
-New change
-One more row
-From test3
-new row from test3
-new row from test3
-One more try
+Changes from test2
