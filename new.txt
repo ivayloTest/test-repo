@@ -4,4 +4,5 @@ Git stashed
 Some changes
 New change
 One more row
+From test3
 
