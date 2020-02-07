@@ -1,4 +1,5 @@
 Commited
 I am in test 1
 Git stashed
+Some changes
 New change
