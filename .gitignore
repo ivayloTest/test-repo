@@ -1,5 +1,5 @@
 *.txt
-pics/*.txt
+pics/*
 
 # exclude everything
 images/*
