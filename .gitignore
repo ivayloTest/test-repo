@@ -4,8 +4,10 @@ pics/*
 # exclude everything
 images/*
 pictures/*
+pic/*
 
 
 # exception to the rule
 !images/.gitkeep 
 !pictures/.gitkeep
+!pic/.gitkeep
