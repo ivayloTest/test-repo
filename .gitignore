@@ -2,6 +2,8 @@
 
 # exclude everything
 images/*
+pictures/*
 
 # exception to the rule
 !images/.gitkeep 
+!pictures/.gitkeep
