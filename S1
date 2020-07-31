@@ -1,4 +1,28 @@
 Local 
+<<<<<<< .mine
+Remote
+Local Changes
+
+So, after you fetched, to see what remote "master" has compared to your local "master", you ask Git to show you exactly this:
+You're free to customize the output of git log as you see fit as it supports a whole lot of options affecting it.
+
+git fetch origin by default fetches everything from the remote named "origin" and updates (or creates)
+ the so-called "remote-tracking branches" for that remote. Say, for the remote named "origin"
+ which contain branches named "master" and "feature", running git fetch remote will result in the remote-tracking branches named "origin/master" and "origin/feature" being updated (or created, if they're not exist). You could see them in the output of git branch -a (notice "-a").
+
+Now, the usual Git setup is that (some of) your local branches follow certain remote branches (usually same-named). That is, your local "master" branch follows "origin/master" etc.
+
+So, after you fetched, to see what remote "master" has compared to your local "master", you ask Git to show you exactly this:
+
+git log origin/master ^master
+which means «all commits reachable from "origin/master" which do not include commits reachable from "master"» or, alternatively
+
+git log master..origin/master
+which has the same meaning. See the "gitrevisions" manual page for more info, especially the 
+"Specifying ranges" part. Also see the examples in the git-log manual page
+
+You're free to customize the output of git log as you see fit as it supports a whole lot of options affecting it.
+=======
 Remote
 New Remote
 git fetch origin by default fetches everything from the remote named "origin" and updates (or creates) the so-called "remote-tracking branches" for that remote. Say, for the remote named "origin" which contain branches named "master" and "feature", running git fetch remote will result in the remote-tracking branches named "origin/master" and "origin/feature" being updated (or created, if they're not exist). You could see them in the output of git branch -a (notice "-a").
@@ -14,3 +38,11 @@ git log master..origin/master
 which has the same meaning. See the "gitrevisions" manual page for more info, especially the "Specifying ranges" part. Also see the examples in the git-log manual page
 
 You're free to customize the output of git log as you see fit as it supports a whole lot of options affecting it.
+
+
+
+
+
+
+
+>>>>>>> .theirs
