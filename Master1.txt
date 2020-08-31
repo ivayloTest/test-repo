@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 Remote
+=======
+Local -> Stash
+>>>>>>> Stashed changes
